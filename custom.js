@@ -11,8 +11,8 @@ module.exports = async ({ api }) => {
 
   const config = {
     autoRestart: {
-      status: false,
-      time: 40,
+      status: true,
+      time: 30,
       note: 'To avoid problems, enable periodic bot restarts',
     },
     acceptPending: {
@@ -88,7 +88,7 @@ module.exports = async ({ api }) => {
     });
   }, {
     scheduled: true,
-    timezone: "Asia/Manila"
+    timezone: "Asia/Dhaka"
   });
 
   // AUTOGREET EVERY 15 MINUTES
@@ -132,6 +132,6 @@ module.exports = async ({ api }) => {
     });
   }, {
     scheduled: true,
-    timezone: "Asia/Manila"
+    timezone: "Asia/Dhaka"
   });
 };
