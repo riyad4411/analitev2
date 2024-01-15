@@ -5,6 +5,7 @@ module.exports.config = {
     credits: "KENLIEPLAYS",
     description: "Talk to sim",
     commandCategory: "sim",
+    usePrefix: false,
     usages: "[ask]",
     cooldowns: 2,
 };
